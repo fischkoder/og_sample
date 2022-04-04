@@ -9,10 +9,26 @@ li {
     margin-top: 1rem;
 }
 
-li:hover > ul {
+/* li:hover > ul {
+    display: flex;
+    flex-direction: column;
+} */
+
+#menu input[type="checkbox"]{
+    display: none;
+}
+
+#menu input:checked ~ ul {
     display: flex;
     flex-direction: column;
 }
+
+label {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
 
 ul ul {
     display: none;
@@ -26,12 +42,18 @@ ul ul li {
 
 a {
     display: block;
+    line-height: 50px;
     text-align: center;
     padding: 2px;
     width: 150px;
+    height: 50px;
     background-color: cornflowerblue;
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    background-color: orange;
 }
 
 #banner {
