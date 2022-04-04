@@ -9,10 +9,40 @@ li {
     margin-top: 1rem;
 }
 
-/* li:hover > ul {
-    display: flex;
-    flex-direction: column;
-} */
+label {
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    padding: 2px;
+    width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+label:hover {
+    background-color: orange;
+}
+
+#menu {
+    height: 100%;
+    width: 300px;
+    left: 0;
+    position: absolute;
+    background-color:darkgray;
+}
+
+#topright{
+    height: 60%;
+    width: 100%;
+    left: 300px;
+    position: absolute;
+    background-color: coral;
+}
+
+#downright{
+
+}
 
 #menu input[type="checkbox"]{
     display: none;
@@ -21,12 +51,6 @@ li {
 #menu input:checked ~ ul {
     display: flex;
     flex-direction: column;
-}
-
-label {
-    width: 100%;
-    display: block;
-    position: relative;
 }
 
 
@@ -56,8 +80,11 @@ a:hover {
     background-color: orange;
 }
 
+
+
 #banner {
     font-size: 32px;
     margin-left: 30px;
     margin-bottom: 0;
 }
+
