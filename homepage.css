@@ -41,7 +41,16 @@ label:hover {
 }
 
 #downright{
+    left: 300px;
+    top: 60%;
+    width: 100%;
+    height:40%;
+    background-color:blanchedalmond;
+}
 
+#product_details, #shopping_cart {
+    height: 100%;
+    width: 100%;
 }
 
 #menu input[type="checkbox"]{
